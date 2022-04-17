@@ -1,0 +1,41 @@
+{
+  "name": "tdd-vue3",
+  "version": "0.0.0",
+  "description": "tdd-vue3",
+  "keywords": [
+    "vue3",
+    "mini-vue"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vancats/tdd-vue3.git"
+  },
+  "author": "vancats <leiqifan@163.com> (https://github.com/vancats)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "bugs": {
+    "url": "https://github.com/vancats/tdd-vue3/issues"
+  },
+  "homepage": "https://github.com/vancats/tdd-vue3#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.1",
+    "@vancats/eslint-config": "^0.0.6",
+    "babel-jest": "^27.5.1",
+    "chalk": "^4.1.2",
+    "eslint": "^8.13.0",
+    "husky": "^7.0.4",
+    "jest": "^27.5.1",
+    "typescript": "^4.6.3"
+  },
+  "eslintConfig": {
+    "extends": "@vancats"
+  }
+}
