@@ -6,4 +6,4 @@
 
 ## 目前
 
-@vue/reactive
+- [ ] @vue/reactive

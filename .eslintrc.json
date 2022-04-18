@@ -1,0 +1,6 @@
+{
+  "extends": "@vancats",
+  "rules": {
+    "no-console": "off"
+  }
+}
