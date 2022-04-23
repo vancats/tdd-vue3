@@ -1,6 +1,7 @@
 {
   "extends": "@vancats",
   "rules": {
-    "no-console": "off"
+    "no-console": "off",
+    "@typescript-eslint/no-this-alias": "off"
   }
 }
